@@ -1,0 +1,24 @@
+package com.zj.demo01eurekaprovider.controller;
+
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+//@RequestMapping("/provider-02")
+public class PortController {
+    @Value("${server.port}")
+    String port;
+
+    /**
+     *     @RequestMapping(value = "/sayPort, method = RequestMethod.GET)
+     * @return
+     */
+    @GetMapping("/sayPort")
+    public String sayPort(){
+        System.out.println("当前访问的服务端口为：" + port);
+        return "当前访问的服务端口为：" + port;
+    }
+}

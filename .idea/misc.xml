@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/demo01-EurekaServer-01/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-EurekaClient/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-EurekaServer-02/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-Provider-01/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-Provider-02/pom.xml" />
+        <option value="$PROJECT_DIR$/demo2-Eureka-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-consumer-Feign/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Common-API/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-Consumer-Feign-Hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-consumer-Feign-Hystrix-Dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-Turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-Consumer-Feign-Hystrix-02/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Eureka-Zuul/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

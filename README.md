@@ -1,0 +1,11 @@
+# 项目模块说明
+- `common-api:feign`:远程调用案例抽离出来的通用API
+- `eureka-consumer`:最原始的服务消费者，使用的是具有负载均衡的`restTemplate`对象实现远程调用的，服务列表是来自于`eureka`集群，并修改了负载均衡策略
+- `eureka-consumer-feign`:使用的是`feign`实现远程调用，服务列表来源于`eureka`集群，并修改了负载均衡策略和日志策略
+- `eureka-consumer-feign-hystrix`:`feign`远程调用并且配置了熔断回调,内嵌的`hystrix dashboard `被注解掉了
+- `eureka-consumer-feign-hystrix-02`:`feign`远程调用并且配置了熔断回调，改写了`UserService`类名为`HelloUserService`为了展现`turbine`聚合监控
+- `eureka-consumer-feign-hystrix-dashboard`:独立的`hystrix dashboard`实现熔断器的监控
+- `eureka-turbine`:独立的`hystrix dashboard`和`turbine`实现熔断器的监控
+- `eureka-client`:原始的`eureka`客户端不做任何操作就光是注册
+- `eurekaService-01`:服务注册中心集群成员
+- `eurekaService-02`:服务注册中心集群成员
