@@ -47,8 +47,8 @@
 <!--            <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>-->
 <!--        </dependency>-->
 
-
         <!--spring boot 内部监控和管理模块-->
+<!--        http://localhost:7006/actautor/hystrix.stream-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>

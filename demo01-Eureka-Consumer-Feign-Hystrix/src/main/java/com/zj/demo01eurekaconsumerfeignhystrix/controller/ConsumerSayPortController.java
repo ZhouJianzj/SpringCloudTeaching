@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author zhoujian
  */
 @RestController
+//@RequestMapping("/api")
 public class ConsumerSayPortController {
     @Autowired
     ProviderServer sayPortService;

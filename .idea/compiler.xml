@@ -17,10 +17,12 @@
         <module name="demo01-Eureka-Consumer-Feign-Hystrix" />
         <module name="demo2-Eureka-consumer-feign" />
         <module name="demo01-Eureka-Consumer-Feign" />
+        <module name="demo01-config-server" />
         <module name="demo01-EurekaServer-02" />
         <module name="demo01-EurekaServer-01" />
         <module name="demo01-EurekaClient" />
         <module name="demo01-Eureka-Zuul" />
+        <module name="demo01-config-client" />
         <module name="demo01-Eureka-Turbine" />
         <module name="demo01-Common-API" />
       </profile>
@@ -44,6 +46,8 @@
       <module name="demo01-EurekaClient" options="-parameters" />
       <module name="demo01-EurekaServer-01" options="-parameters" />
       <module name="demo01-EurekaServer-02" options="-parameters" />
+      <module name="demo01-config-client" options="-parameters" />
+      <module name="demo01-config-server" options="-parameters" />
       <module name="demo2-Eureka-consumer-feign" options="-parameters" />
     </option>
   </component>

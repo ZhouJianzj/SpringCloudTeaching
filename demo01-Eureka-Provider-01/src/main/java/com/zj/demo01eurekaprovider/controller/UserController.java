@@ -16,7 +16,7 @@ public class UserController implements ProviderServer {
 
     @GetMapping("/consumerSayPort")
     public String sayPort() {
-        return null;
+        return  "当前访问的服务端口为：7002";
     }
 
     @PostMapping("/name")

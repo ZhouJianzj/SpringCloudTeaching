@@ -21,6 +21,8 @@
     <file url="file://$PROJECT_DIR$/demo01-EurekaServer-01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo01-EurekaServer-02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo01-EurekaServer-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo2-Eureka-consumer-feign/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

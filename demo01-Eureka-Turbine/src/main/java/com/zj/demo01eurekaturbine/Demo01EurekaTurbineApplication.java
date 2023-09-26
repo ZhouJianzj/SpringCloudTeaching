@@ -2,6 +2,7 @@ package com.zj.demo01eurekaturbine;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.netflix.turbine.EnableTurbine;
 
@@ -9,6 +10,7 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
  * @author zhoujian
  */
 @SpringBootApplication
+@EnableEurekaClient
 @EnableHystrixDashboard
 @EnableTurbine
 public class Demo01EurekaTurbineApplication {

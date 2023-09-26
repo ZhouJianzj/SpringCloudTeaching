@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/demo01-Eureka-Turbine/pom.xml" />
         <option value="$PROJECT_DIR$/demo01-Eureka-Consumer-Feign-Hystrix-02/pom.xml" />
         <option value="$PROJECT_DIR$/demo01-Eureka-Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-config-client/pom.xml" />
       </list>
     </option>
   </component>
