@@ -1,4 +1,4 @@
-package com.zj.demo01configclient.controller;
+package com.zj.demo01configclientfromgitee.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

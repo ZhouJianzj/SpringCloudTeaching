@@ -21,6 +21,9 @@
         <option value="$PROJECT_DIR$/demo01-Eureka-Zuul/pom.xml" />
         <option value="$PROJECT_DIR$/demo01-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/demo01-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-config-server-02/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-config-client-from-gitee/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-config-server-from-gitee/pom.xml" />
       </list>
     </option>
   </component>
