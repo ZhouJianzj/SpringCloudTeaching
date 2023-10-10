@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/demo01-Stream-Consumer-01/demo" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -24,6 +27,13 @@
         <option value="$PROJECT_DIR$/demo01-config-server-02/pom.xml" />
         <option value="$PROJECT_DIR$/demo01-config-client-from-gitee/pom.xml" />
         <option value="$PROJECT_DIR$/demo01-config-server-from-gitee/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-config-client-from-gitee-02/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Stream/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Stream-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Stream_Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Stream-Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Stream-Consumer-02/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Stream-Consumer-01/pom.xml" />
       </list>
     </option>
   </component>

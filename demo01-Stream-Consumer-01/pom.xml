@@ -8,35 +8,26 @@
         <version>2.1.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.zj</groupId>
-    <artifactId>demo01-config-server-from-gitee</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>demo01-Stream-Consumer-01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo01-config-client-from-gitee</name>
-    <description>demo01-config-client-from-gitee</description>
+    <name>demo01-Stream</name>
+    <description>demo01-Stream</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
     </properties>
-
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-        </dependency>
-
-<!--        实现配置自动刷新使用-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
 
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

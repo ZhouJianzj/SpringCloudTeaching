@@ -1,0 +1,17 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: StreamWithRabbitMQConsumer
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: pipe
+          group: A
+
