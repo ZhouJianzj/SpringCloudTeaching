@@ -1,0 +1,25 @@
+server:
+  port: 9411
+spring:
+  application:
+    name: ZipkinServer
+  storage:
+    type: mysql
+  datasource:
+    password: Xiot@mariadb_2018
+    username: root
+    url: jdbc:mysql://10.90.9.93:3306/zipkin
+    driver-class-name: com.mysql.jdbc.Driver
+    schema: classpath:/zipkin.sql
+  rabbitmq:
+    password: guest
+    username: guest
+    addresses: http://localhost:5672
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
+zipkin:
+  storage:
+    type: mysql

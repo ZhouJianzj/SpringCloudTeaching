@@ -9,3 +9,5 @@
 - `eureka-client`:原始的`eureka`客户端不做任何操作就光是注册
 - `eurekaService-01`:服务注册中心集群成员
 - `eurekaService-02`:服务注册中心集群成员
+- 
+  --zipkin.collector.rabbitmq.addresses=localhost

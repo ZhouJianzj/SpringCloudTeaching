@@ -11,5 +11,12 @@ spring:
   cloud:
     stream:
       bindings:
-        MyConsumer:
+        output:
           destination: pipe
+          group: A
+          producer:
+##          生产者分区数量：表示的是消费者实例的数量
+#
+            partition-count: 2
+##         只给消费者ID为1的生产消息，就等于消息只能被消费者ID为1消费。注意：这里的ID需要是一个字符串表达式，写成1是会报错的
+            partition-key-expression: "1"

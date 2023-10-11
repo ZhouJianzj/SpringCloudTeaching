@@ -9,30 +9,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo01-Eureka-consumer-Feign-Hystrix-Dashboard" />
+        <module name="demo01-Eureka-Consumer-Feign" />
+        <module name="demo01-config-client-from-gitee-02" />
+        <module name="demo01-Stream-Provider" />
+        <module name="demo01-config-client-from-gitee" />
+        <module name="demo01-Eureka-Turbine" />
+        <module name="demo01-Common-API" />
         <module name="demo01-Eureka-Consumer" />
         <module name="demo01-Eureka-Provider-02" />
         <module name="demo01-Eureka-Provider-01" />
-        <module name="demo01-Eureka-consumer-Feign-Hystrix-Dashboard" />
+        <module name="demo01-ZikpinServer" />
         <module name="demo01-Eureka-Consumer-Feign-Hystrix-02" />
+        <module name="demo01-Zipkin-Zuul" />
         <module name="demo01-Eureka-Consumer-Feign-Hystrix" />
         <module name="demo2-Eureka-consumer-feign" />
-        <module name="demo01-Eureka-Consumer-Feign" />
-        <module name="demo01-config-client-from-gitee-02" />
         <module name="demo01-config-server" />
         <module name="demo01-EurekaServer-02" />
         <module name="demo01-EurekaServer-01" />
+        <module name="demo01-Zipkin-EurekaServer" />
         <module name="demo01-config-server-02" />
-        <module name="demo01-Stream-Provider" />
         <module name="demo01-EurekaClient" />
         <module name="demo01-Stream-Consumer-02" />
         <module name="demo01-Eureka-Zuul" />
         <module name="demo01-Stream-Consumer-01" />
         <module name="demo01-Stream" />
-        <module name="demo01-config-client-from-gitee" />
+        <module name="demo01-Zipkin-Provider-Provider" />
+        <module name="demo01-Zipkin-Provider" />
         <module name="demo01-config-client" />
         <module name="demo01-config-server-from-gitee" />
-        <module name="demo01-Eureka-Turbine" />
-        <module name="demo01-Common-API" />
+        <module name="demo01-Zipkin-Consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -59,6 +65,12 @@
       <module name="demo01-Stream-Consumer-01" options="-parameters" />
       <module name="demo01-Stream-Consumer-02" options="-parameters" />
       <module name="demo01-Stream-Provider" options="-parameters" />
+      <module name="demo01-ZikpinServer" options="-parameters" />
+      <module name="demo01-Zipkin-Consumer" options="-parameters" />
+      <module name="demo01-Zipkin-EurekaServer" options="-parameters" />
+      <module name="demo01-Zipkin-Provider" options="-parameters" />
+      <module name="demo01-Zipkin-Provider-Provider" options="-parameters" />
+      <module name="demo01-Zipkin-Zuul" options="-parameters" />
       <module name="demo01-config-client" options="-parameters" />
       <module name="demo01-config-client-from-git" options="-parameters" />
       <module name="demo01-config-client-from-gitee" options="-parameters" />

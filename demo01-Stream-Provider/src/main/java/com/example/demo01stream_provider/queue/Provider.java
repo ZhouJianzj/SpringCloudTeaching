@@ -32,6 +32,6 @@ public class Provider {
         executorService.scheduleAtFixedRate(() -> {
             // 这里放置您要执行的代码
             channel.send(MessageBuilder.withPayload("Hello World!" + System.currentTimeMillis()).build());
-        }, 0, 5, TimeUnit.SECONDS);
+        }, 0, 1, TimeUnit.SECONDS);
     }
 }

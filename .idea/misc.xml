@@ -3,6 +3,8 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/demo01-Stream-Consumer-01/demo" />
+    <file type="web" url="file://$PROJECT_DIR$/demo01-Zikpin-Zuul" />
+    <file type="web" url="file://$PROJECT_DIR$/demo01-Zipkin-Provider-Provider" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -34,6 +36,12 @@
         <option value="$PROJECT_DIR$/demo01-Stream-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/demo01-Stream-Consumer-02/pom.xml" />
         <option value="$PROJECT_DIR$/demo01-Stream-Consumer-01/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-ZikpinServer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Zipkin-EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Zipkin-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Zipkin-Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Zipkin-Provider-Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo01-Zipkin-Zuul/pom.xml" />
       </list>
     </option>
   </component>

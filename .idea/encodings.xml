@@ -28,6 +28,14 @@
     <file url="file://$PROJECT_DIR$/demo01-Stream-Provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo01-Stream-Provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo01-Stream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-ZikpinServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-ZikpinServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-ZikpinServer/src/main/resources/zipkin.sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-Zipkin-Consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-Zipkin-EurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-Zipkin-Provider-Provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-Zipkin-Provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01-Zipkin-Zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo01-config-client-from-git/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo01-config-client-from-git/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo01-config-client-from-gitee-02/src/main/java" charset="UTF-8" />

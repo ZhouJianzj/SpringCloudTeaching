@@ -14,3 +14,9 @@ spring:
         input:
           destination: pipe
           group: A
+          consumer:
+            partitioned: true
+#     消费者实例数量
+      instance-count: 2
+#      消费者ID
+      instance-index: 0
