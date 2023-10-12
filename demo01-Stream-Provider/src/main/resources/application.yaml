@@ -19,4 +19,4 @@ spring:
 #
             partition-count: 2
 ##         只给消费者ID为1的生产消息，就等于消息只能被消费者ID为1消费。注意：这里的ID需要是一个字符串表达式，写成1是会报错的
-            partition-key-expression: "1"
+            partition-key-expression: "0"
